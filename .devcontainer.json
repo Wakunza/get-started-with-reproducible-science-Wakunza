@@ -1,0 +1,26 @@
+{
+    "name": "Earth Analytics Python Container",
+    "image": "registry.hub.docker.com/earthlab/earth-analytics-python-env:latest",
+    "workspaceFolder": "/workspaces",
+    "extensions": [
+        "ms-python.python",
+        // Use black to format code (right click)
+        "ms-python.black-formatter",
+    ],
+    "settings": {
+        // Display line length guides
+        "editor.rulers": [72, 79],
+        // Display line numbers
+        "editor.lineNumbers": "on",
+        // Turn off annoying overzealous autocomplete
+        "editor.acceptSuggestionOnEnter": "off",
+        // Formatting tools
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "python.formatting.blackArgs": [
+            "--line-length=79",
+            "--experimental-string-processing"
+        ],        
+        // Set the default python to the conda install
+        "python.defaultInterpreterPath": "/opt/conda/envs/earth-analytics-python/bin/python"
+    }
+}

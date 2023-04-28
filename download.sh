@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+wget https://raw.githubusercontent.com/earth-analytics-edu/ea-assignment-notebooks/beb347a2cad006edec202c9a46fce7809db7f3f0/01-bootcamp/source/bootcamp-01-get-started-reproducible-science/Get%20Started%20with%20Open%20Reproducible%20Science!.ipynb
